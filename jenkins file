@@ -2,7 +2,7 @@
 properties([
    [$class: 'GithubProjectProperty',
    displayName: '',
-   projectUrlStr: 'https://github.com/VeridicSolutions99/Veridic_Atlanta.git/'],
+   projectUrlStr: 'https://git@github.com:varun-demo-organization/demo_1.git/'],
    pipelineTriggers([githubPush()])])
 
 pipeline {
